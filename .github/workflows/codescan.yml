@@ -22,7 +22,7 @@ jobs:
         uses: codescan-io/codescan-scanner-action@1.5
         with: 
           organization: teer
-          projectKey: lokeex-examples 
+          projectKey: mule
           login: ${{ secrets.codescan_token }} 
           generateSarifFile: true 
           failOnRedQualityGate: true 
@@ -31,7 +31,7 @@ jobs:
         uses: codescan-io/codescan-scanner-action@1.5
         with: 
           organization: teer
-          projectKey: lokeex-examples
+          projectKey: mule
           login: ${{ secrets.codescan_token }} 
           scanChangedFilesOnly: true 
           generateSarifFile: true 
