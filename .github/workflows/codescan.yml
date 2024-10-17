@@ -21,18 +21,20 @@ jobs:
         if: github.event_name == 'push' 
         uses: codescan-io/codescan-scanner-action@1.5
         with: 
-          organization: teer
-          projectKey: mule
-          login: ${{ secrets.codescan_token }} 
+          organization: va-testing
+          projectKey: hub-scanner_actions
+          codeScanUrl: https://appgov.codescan.io
+          login: squ_052ff374794698272cc6a4712bb63a86b0fc25ea
           generateSarifFile: true 
           failOnRedQualityGate: true 
       - name: Run Codescan On PR 
         if: github.event_name == 'pull_request' 
         uses: codescan-io/codescan-scanner-action@1.5
         with: 
-          organization: teer
-          projectKey: mule
-          login: ${{ secrets.codescan_token }} 
+          organization: va-testing
+          projectKey: hub-scanner_actions
+          codeScanUrl: https://appgov.codescan.io
+          login: squ_052ff374794698272cc6a4712bb63a86b0fc25ea 
           scanChangedFilesOnly: true 
           generateSarifFile: true 
           failOnRedQualityGate: true 
