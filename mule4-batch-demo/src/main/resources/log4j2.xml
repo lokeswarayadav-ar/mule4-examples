@@ -16,6 +16,7 @@
             <DefaultRolloverStrategy max="10"/>
         </RollingFile>
     </Appenders>
+	
     <Loggers>
     	
 		<!-- Http Logger shows wire traffic on DEBUG. -->
