@@ -25,7 +25,7 @@ jobs:
         with: 
           organization: teer
           projectKey: lokeex-examples
-          codeScanUrl: https://vadev.codescan.io/
+          codeScanUrl: https://vadev.codescan.io
           login: squ_9dcccdd50b65f767f6818a2b296bf10db9d77a3f
           generateSarifFile: true 
           failOnRedQualityGate: true 
@@ -35,7 +35,7 @@ jobs:
         with: 
           organization: teer
           projectKey: lokeex-examples
-          codeScanUrl: https://vadev.codescan.io/
+          codeScanUrl: https://vadev.codescan.io
           login: squ_9dcccdd50b65f767f6818a2b296bf10db9d77a3f
           scanChangedFilesOnly: true 
           generateSarifFile: true 
