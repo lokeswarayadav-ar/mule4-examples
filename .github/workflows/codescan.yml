@@ -24,9 +24,9 @@ jobs:
         uses: codescan-io/codescan-scanner-action@1.6
         with: 
           organization: teer
-          projectKey: lokeex-examples
-          codeScanUrl: https://vadev.codescan.io
-          login: squ_9dcccdd50b65f767f6818a2b296bf10db9d77a3f
+          projectKey: mule
+          codeScanUrl: https://app.codescan.io
+          login: squ_6a0bfe3b037e54b5d85453dab6f44069c1b40e21
           generateSarifFile: true
           failOnRedQualityGate: true 
       - name: Run Codescan On PR 
@@ -34,9 +34,9 @@ jobs:
         uses: codescan-io/codescan-scanner-action@1.6
         with: 
           organization: teer
-          projectKey: lokeex-examples
-          codeScanUrl: https://vadev.codescan.io
-          login: squ_9dcccdd50b65f767f6818a2b296bf10db9d77a3f
+          projectKey: mule
+          codeScanUrl: https://app.codescan.io
+          login: squ_6a0bfe3b037e54b5d85453dab6f44069c1b40e21
           scanChangedFilesOnly: true 
           generateSarifFile: true 
           failOnRedQualityGate: true 
